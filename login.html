@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <div id="s_header" class="bg-blue-600 fixed top-0 left-0 w-full text-left p-5">
+    <div class="container flex items-center">
+      <img src="https://sis.addu.edu.ph/sites/default/files/addu_2.png" alt="logo" class="h-14">
+      <div class="sis ml-5 text-white text-xl">STUDENT INFORMATION SYSTEM</div>
+      <div class="addu ml-5 text-white text-lg">ATENEO DE DAVAO UNIVERSITY</div>
+    </div>
+  </div>
+
+  <!-- Login -->
+  <div class="sidebar absolute top-20 bottom-3 left-0 w-60 bg-gray-700 text-white p-5">
+    <h2 class="text-blue-600">Student Login</h2>
+    <form>
+      <label for="username" class="block mb-2">AdDUNET Username:</label>
+      <input type="text" id="username" name="username" class="w-3/4 px-3 py-1 mb-3 bg-gray-100 text-gray-800">
+      <label for="password" class="block mb-2">AdDUNET Password:</label>
+      <input type="password" id="password" name="password" class="w-3/4 px-3 py-1 mb-3 bg-gray-100 text-gray-800">
+      <a href="sis.html" class="button inline-block px-4 py-2 bg-blue-600 text-white no-underline rounded-md">Login</a>
+    </form>
+  </div>
+
+</body>
+</html>
